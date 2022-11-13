@@ -24,8 +24,13 @@
 		font-weight: 700;
 		font-size: 18px;
 		color: #ffffff;
+		transition: 0.6s;
+		-webkit-transition: 0.6s;
+		-moz-transition: 0.6s;
+		-ms-transition: 0.6s;
+		-o-transition: 0.6s;
 		&:hover {
-			color: #ffffff;
+			color: $main-color;
 			text-decoration: none;
 		}
 	}

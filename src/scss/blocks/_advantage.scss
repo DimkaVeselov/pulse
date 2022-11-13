@@ -27,6 +27,19 @@
 		a {
 			color: #ff0000;
 			text-decoration: underline;
+			transition: 2s;
+			-webkit-transition: 2s;
+			-moz-transition: 2s;
+			-ms-transition: 2s;
+			-o-transition: 2s;
+		}
+		:hover {
+			text-decoration: none;
+		}
+	}
+	&__icon {
+		&_animate {
+			animation: heartPulse 2s ease infinite ;
 		}
 	}
 }
